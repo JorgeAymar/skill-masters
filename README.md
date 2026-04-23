@@ -6,14 +6,14 @@ Colección de personas de coaching basadas en emprendedores y metodologías de a
 
 ## Skills disponibles
 
-| Slug | Persona | Área principal | Fuente |
-|------|---------|---------------|--------|
-| `alex-hormozi` | Alex Hormozi | Grand Slam Offers, $100M Leads, scaling | 4,880 videos YT |
-| `dan-martel` | Dan Martel | Buy Back Your Time, SaaS, AI tools | 724 videos YT |
-| `iman-gadzhi` | Iman Gadzhi | SMMA, agency building, Gen Z wealth | videos YT |
-| `jaime-higuera` | Jaime Higuera | Negocios online en español, libertad financiera | videos YT |
-| `russell-brunson` | Russell Brunson | Funnels, Value Ladder, ClickFunnels | videos YT |
-| `ycombinator` | YC Partner | Startup validation, PMF, fundraising | 594 videos YT |
+| Slug | Persona | Área principal |
+|------|---------|----------------|
+| `alex-hormozi` | Alex Hormozi | Grand Slam Offers, $100M Leads, pricing, scaling |
+| `dan-martel` | Dan Martel | Buy Back Your Time, SaaS, AI tools |
+| `iman-gadzhi` | Iman Gadzhi | SMMA, agency building, Gen Z wealth |
+| `jaime-higuera` | Jaime Higuera | Negocios online en español, libertad financiera |
+| `russell-brunson` | Russell Brunson | Funnels, Value Ladder, ClickFunnels |
+| `ycombinator` | YC Partner | Startup validation, PMF, fundraising |
 
 ---
 
@@ -21,7 +21,7 @@ Colección de personas de coaching basadas en emprendedores y metodologías de a
 
 ```
 skill-masters/
-├── skills/                        ← definiciones maestras de cada skill
+├── skills/                          ← definiciones maestras de cada skill
 │   ├── alex-hormozi/SKILL.md
 │   ├── dan-martel/SKILL.md
 │   ├── iman-gadzhi/SKILL.md
@@ -29,40 +29,45 @@ skill-masters/
 │   ├── russell-brunson/SKILL.md
 │   └── ycombinator/SKILL.md
 ├── integrations/
-│   ├── antigravity/               ← Antigravity (Gemini) — prefijo agency-
+│   ├── antigravity/                 ← Antigravity / Gemini (prefijo agency-)
 │   │   ├── README.md
 │   │   ├── agency-alex-hormozi/SKILL.md
-│   │   └── ...
-│   └── openai-gpts/               ← OpenAI Custom GPTs
+│   │   ├── agency-dan-martel/SKILL.md
+│   │   ├── agency-iman-gadzhi/SKILL.md
+│   │   ├── agency-jaime-higuera/SKILL.md
+│   │   ├── agency-russell-brunson/SKILL.md
+│   │   └── agency-ycombinator/SKILL.md
+│   └── openai-gpts/                 ← OpenAI Custom GPTs
 │       ├── README.md
 │       ├── alex-hormozi/
-│       │   ├── instructions.md    ← pegar en GPT Builder → Instructions
-│       │   └── config.json        ← nombre, descripción, conversation starters
-│       └── ...
+│       │   ├── instructions.md      ← pegar en GPT Builder → Instructions
+│       │   └── config.json          ← nombre, descripción, conversation starters
+│       ├── dan-martel/
+│       ├── iman-gadzhi/
+│       ├── jaime-higuera/
+│       ├── russell-brunson/
+│       └── ycombinator/
 ├── scripts/
-│   ├── install.sh                 ← instala Antigravity en ~/.gemini/antigravity/skills/
-│   ├── convert.sh                 ← regenera integrations/antigravity/ desde skills/
-│   └── convert-gpts.sh            ← regenera integrations/openai-gpts/ desde skills/
-├── .claude/commands/              ← slash commands para Claude Code
-└── *.txt                          ← fuentes de video por persona
+│   ├── install.sh                   ← instala Antigravity en ~/.gemini/antigravity/skills/
+│   ├── convert.sh                   ← regenera integrations/antigravity/ desde skills/
+│   └── convert-gpts.sh              ← regenera integrations/openai-gpts/ desde skills/
+└── .claude/
+    └── commands/                    ← slash commands para Claude Code
+        ├── alex-hormozi.md
+        ├── dan-martel.md
+        ├── iman-gadzhi.md
+        ├── jaime-higuera.md
+        ├── russell-brunson.md
+        └── ycombinator.md
 ```
 
 ---
 
 ## Instalación
 
-### Claude Code (slash commands)
+### Claude Code
 
-Los skills funcionan automáticamente en Claude Code. Los slash commands del proyecto están en `.claude/commands/`:
-
-```
-/dan-martel
-/russell-brunson
-/iman-gadzhi
-/jaime-higuera
-```
-
-Para instalar los skills globalmente en `~/.claude/skills/`:
+Los slash commands están en `.claude/commands/` y funcionan automáticamente dentro del proyecto. Para instalar los skills globalmente en `~/.claude/skills/`:
 
 ```bash
 for dir in skills/*/; do
@@ -72,70 +77,54 @@ for dir in skills/*/; do
 done
 ```
 
-### OpenAI GPTs
-
-Los archivos para cada GPT están en `integrations/openai-gpts/`.
-
-1. Ir a `https://chatgpt.com/gpts/editor`
-2. Modo **Configure**
-3. Copiar los valores de `config.json` (Name, Description, Conversation starters)
-4. Pegar el contenido de `instructions.md` en el campo **Instructions**
-5. Desactivar Web Browsing, DALL·E y Code Interpreter
-6. Guardar
-
-Ver instrucciones detalladas en [integrations/openai-gpts/README.md](integrations/openai-gpts/README.md).
-
-**Regenerar después de cambios:**
-
-```bash
-./scripts/convert-gpts.sh
-```
-
----
-
 ### Antigravity (Gemini)
-
-Los skills están adaptados con frontmatter compatible con Antigravity en `integrations/antigravity/`.
-
-**Instalación rápida:**
 
 ```bash
 ./scripts/install.sh
 ```
 
-Esto copia todos los archivos a `~/.gemini/antigravity/skills/`.
+Copia todos los archivos a `~/.gemini/antigravity/skills/`.
 
-**Reinstalar después de cambios:**
+Después de modificar un skill:
 
 ```bash
-./scripts/convert.sh   # regenera integrations/ desde skills/
-./scripts/install.sh   # copia a ~/.gemini/antigravity/skills/
+./scripts/convert.sh   # regenera integrations/antigravity/
+./scripts/install.sh   # despliega a ~/.gemini/antigravity/skills/
 ```
+
+### OpenAI GPTs
+
+1. Ir a `https://chatgpt.com/gpts/editor` → modo **Configure**
+2. Copiar `name` y `description` de `config.json`
+3. Pegar el contenido de `instructions.md` en el campo **Instructions**
+4. Agregar los `conversation_starters` del `config.json`
+5. Desactivar Web Browsing, DALL·E y Code Interpreter
+6. Guardar
+
+Después de modificar un skill:
+
+```bash
+./scripts/convert-gpts.sh   # regenera integrations/openai-gpts/
+```
+
+Ver detalles en [integrations/openai-gpts/README.md](integrations/openai-gpts/README.md).
 
 ---
 
 ## Uso
 
-### En Claude Code
-
-Activa cualquier skill con su slash command:
+### Claude Code — slash commands
 
 ```
 /alex-hormozi mi close rate es del 10%, qué hago?
-/ycombinator tengo una idea de SaaS, ¿cómo la valido?
+/dan-martel estoy trabajando 70 horas a la semana
+/iman-gadzhi cómo consigo mi primer cliente de agencia
+/jaime-higuera quiero generar ingresos con IA desde cero
+/russell-brunson diseña un funnel para mi curso de $997
+/ycombinator tengo una idea de SaaS, cómo la valido?
 ```
 
-O simplemente describe tu problema — Claude detecta el contexto:
-
-```
-"quiero hacer una grand slam offer para mi agencia"
-"cómo consigo mis primeros 10 usuarios"
-"necesito buy back my time, trabajo 70 horas a la semana"
-```
-
-### En Antigravity
-
-Activa por slug con prefijo `agency-`:
+### Antigravity
 
 ```
 Use the agency-alex-hormozi skill to review my offer.
@@ -145,12 +134,12 @@ Use the agency-russell-brunson skill to design my sales funnel.
 
 ---
 
-## Formato de respuesta de cada skill
+## Formato de respuesta
 
 Todos los skills siguen el mismo patrón:
 
 ```
-1. Pregunta diagnóstica (calibra el contexto antes de dar consejo)
+1. Pregunta diagnóstica — calibra el contexto antes de dar consejo
    ↓
 2. [Tema]: El Take del Advisor
    - El problema real en 1 línea
@@ -163,13 +152,13 @@ Todos los skills siguen el mismo patrón:
 
 ## Agregar un nuevo skill
 
-1. Crea la carpeta y el archivo:
+1. Crear la definición maestra:
 
 ```bash
 mkdir -p skills/nuevo-advisor
 ```
 
-2. Escribe `skills/nuevo-advisor/SKILL.md` con el frontmatter:
+Escribir `skills/nuevo-advisor/SKILL.md`:
 
 ```yaml
 ---
@@ -178,18 +167,29 @@ description: Descripción breve. Activa cuando...
 metadata:
   version: 1.0.0
 ---
+
+# Nuevo Advisor
+...
 ```
 
-3. Regenera la versión antigravity e instala:
+2. Crear el slash command en `.claude/commands/nuevo-advisor.md`:
 
-```bash
-./scripts/convert.sh
-./scripts/install.sh
+```
+Activa el skill de Nuevo Advisor. [descripción del estilo y áreas]
+
+$ARGUMENTS
 ```
 
-4. Sube al repo:
+3. Regenerar todas las integraciones:
 
 ```bash
-git add . && git commit -m "Add nuevo-advisor skill"
-git push
+./scripts/convert.sh       # Antigravity
+./scripts/convert-gpts.sh  # OpenAI GPTs
+./scripts/install.sh       # instalar localmente
+```
+
+4. Subir al repo:
+
+```bash
+git add . && git commit -m "Add nuevo-advisor skill" && git push
 ```
