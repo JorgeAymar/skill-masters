@@ -21,7 +21,7 @@ Colección de personas de coaching basadas en emprendedores y metodologías de a
 
 ```
 skill-masters/
-├── skills/                        ← definiciones de cada skill
+├── skills/                        ← definiciones maestras de cada skill
 │   ├── alex-hormozi/SKILL.md
 │   ├── dan-martel/SKILL.md
 │   ├── iman-gadzhi/SKILL.md
@@ -29,17 +29,20 @@ skill-masters/
 │   ├── russell-brunson/SKILL.md
 │   └── ycombinator/SKILL.md
 ├── integrations/
-│   └── antigravity/               ← versiones compatibles con Antigravity
+│   ├── antigravity/               ← Antigravity (Gemini) — prefijo agency-
+│   │   ├── README.md
+│   │   ├── agency-alex-hormozi/SKILL.md
+│   │   └── ...
+│   └── openai-gpts/               ← OpenAI Custom GPTs
 │       ├── README.md
-│       ├── agency-alex-hormozi/SKILL.md
-│       ├── agency-dan-martel/SKILL.md
-│       ├── agency-iman-gadzhi/SKILL.md
-│       ├── agency-jaime-higuera/SKILL.md
-│       ├── agency-russell-brunson/SKILL.md
-│       └── agency-ycombinator/SKILL.md
+│       ├── alex-hormozi/
+│       │   ├── instructions.md    ← pegar en GPT Builder → Instructions
+│       │   └── config.json        ← nombre, descripción, conversation starters
+│       └── ...
 ├── scripts/
-│   ├── install.sh                 ← instala en ~/.gemini/antigravity/skills/
-│   └── convert.sh                 ← regenera integrations/ desde skills/
+│   ├── install.sh                 ← instala Antigravity en ~/.gemini/antigravity/skills/
+│   ├── convert.sh                 ← regenera integrations/antigravity/ desde skills/
+│   └── convert-gpts.sh            ← regenera integrations/openai-gpts/ desde skills/
 ├── .claude/commands/              ← slash commands para Claude Code
 └── *.txt                          ← fuentes de video por persona
 ```
@@ -68,6 +71,27 @@ for dir in skills/*/; do
   cp "$dir/SKILL.md" ~/.claude/skills/$skill/SKILL.md
 done
 ```
+
+### OpenAI GPTs
+
+Los archivos para cada GPT están en `integrations/openai-gpts/`.
+
+1. Ir a `https://chatgpt.com/gpts/editor`
+2. Modo **Configure**
+3. Copiar los valores de `config.json` (Name, Description, Conversation starters)
+4. Pegar el contenido de `instructions.md` en el campo **Instructions**
+5. Desactivar Web Browsing, DALL·E y Code Interpreter
+6. Guardar
+
+Ver instrucciones detalladas en [integrations/openai-gpts/README.md](integrations/openai-gpts/README.md).
+
+**Regenerar después de cambios:**
+
+```bash
+./scripts/convert-gpts.sh
+```
+
+---
 
 ### Antigravity (Gemini)
 
