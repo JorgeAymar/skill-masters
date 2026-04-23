@@ -1,93 +1,171 @@
-# Skill: Dan Martel Advisor
+# Skill Masters
 
-Coach de negocios estilo Dan Martel — directo, sin excusas, orientado a la acción.
+Colección de personas de coaching basadas en emprendedores y metodologías de alto impacto. Cada skill activa un advisor especializado con frameworks reales, estilo auténtico y respuestas accionables.
 
-## ¿Qué hace este skill?
+---
 
-Activa una persona de coaching basada en Dan Martel: serial entrepreneur, autor de *Buy Back Your Time*, coach de SaaS, e inversor en 100+ empresas. Responde con una pregunta diagnóstica afilada y un plan de 3 pasos específicos y accionables.
+## Skills disponibles
 
-## ¿Cómo usarlo?
+| Slug | Persona | Área principal | Fuente |
+|------|---------|---------------|--------|
+| `alex-hormozi` | Alex Hormozi | Grand Slam Offers, $100M Leads, scaling | 4,880 videos YT |
+| `dan-martel` | Dan Martel | Buy Back Your Time, SaaS, AI tools | 724 videos YT |
+| `iman-gadzhi` | Iman Gadzhi | SMMA, agency building, Gen Z wealth | videos YT |
+| `jaime-higuera` | Jaime Higuera | Negocios online en español, libertad financiera | videos YT |
+| `russell-brunson` | Russell Brunson | Funnels, Value Ladder, ClickFunnels | videos YT |
+| `ycombinator` | YC Partner | Startup validation, PMF, fundraising | 594 videos YT |
 
-### Opción 1 — Slash command (después de recargar VS Code)
+---
+
+## Estructura del proyecto
+
+```
+skill-masters/
+├── skills/                        ← definiciones de cada skill
+│   ├── alex-hormozi/SKILL.md
+│   ├── dan-martel/SKILL.md
+│   ├── iman-gadzhi/SKILL.md
+│   ├── jaime-higuera/SKILL.md
+│   ├── russell-brunson/SKILL.md
+│   └── ycombinator/SKILL.md
+├── integrations/
+│   └── antigravity/               ← versiones compatibles con Antigravity
+│       ├── README.md
+│       ├── agency-alex-hormozi/SKILL.md
+│       ├── agency-dan-martel/SKILL.md
+│       ├── agency-iman-gadzhi/SKILL.md
+│       ├── agency-jaime-higuera/SKILL.md
+│       ├── agency-russell-brunson/SKILL.md
+│       └── agency-ycombinator/SKILL.md
+├── scripts/
+│   ├── install.sh                 ← instala en ~/.gemini/antigravity/skills/
+│   └── convert.sh                 ← regenera integrations/ desde skills/
+├── .claude/commands/              ← slash commands para Claude Code
+└── *.txt                          ← fuentes de video por persona
+```
+
+---
+
+## Instalación
+
+### Claude Code (slash commands)
+
+Los skills funcionan automáticamente en Claude Code. Los slash commands del proyecto están en `.claude/commands/`:
+
 ```
 /dan-martel
+/russell-brunson
+/iman-gadzhi
+/jaime-higuera
 ```
 
-### Opción 2 — Activación natural en el chat
-Simplemente di frases como:
-- "coach me"
-- "quiero ganar dinero con AI"
-- "cómo escalo mi SaaS"
-- "buy back my time"
-- "estoy atascado"
+Para instalar los skills globalmente en `~/.claude/skills/`:
 
-Claude detecta el contexto y activa el skill automáticamente.
-
-## Temas que cubre
-
-| Tema | Descripción |
-|------|-------------|
-| **Buy Back Your Time** | El Buyback Loop: auditar, delegar, rellenar con trabajo de alto valor |
-| **AI Tools para negocios** | Stack sin código: Make, Clay, Perplexity, ElevenLabs, n8n |
-| **$0 a $1M** | 3 fases: Cashflow → Productize → Scale |
-| **SaaS Scaling** | Los 5 levers de crecimiento, diagnóstico de churn, regla de pricing |
-| **Mindset top 1%** | Los 5 hábitos de los 0.01% más exitosos |
-
-## Estilo de respuesta
-
-Siempre sigue este formato:
-
-```
-Pregunta diagnóstica (1 pregunta afilada)
-↓
-[Tema]: El Take de Dan
-- El problema en 1 línea
-- Qué haría (3 pasos específicos con herramientas y timelines)
-- La trampa a evitar
-- El único número a trackear
+```bash
+for dir in skills/*/; do
+  skill=$(basename "$dir")
+  mkdir -p ~/.claude/skills/$skill
+  cp "$dir/SKILL.md" ~/.claude/skills/$skill/SKILL.md
+done
 ```
 
-## Archivos del skill
+### Antigravity (Gemini)
 
-```
-skill-dan-martel/
-├── README.md                          ← este archivo
-├── videos.txt                         ← 724 videos de Dan Martel (fuente)
-└── .claude/
-    └── commands/
-        └── dan-martel.md              ← slash command del proyecto
+Los skills están adaptados con frontmatter compatible con Antigravity en `integrations/antigravity/`.
 
-~/.claude/
-├── skills/
-│   └── dan-martel/
-│       └── SKILL.md                   ← definición completa del skill
-└── commands/
-    └── dan-martel.md                  ← slash command global
+**Instalación rápida:**
+
+```bash
+./scripts/install.sh
 ```
 
-## Fuente del contenido
+Esto copia todos los archivos a `~/.gemini/antigravity/skills/`.
 
-El skill fue construido a partir de 724 videos del canal de YouTube de Dan Martel, analizando sus temas recurrentes:
-- AI tools y negocios sin código
-- Construcción de riqueza desde cero
-- Productividad y compra de tiempo
-- Coaching a founders de SaaS
-- Mindset y hábitos de alto rendimiento
+**Reinstalar después de cambios:**
 
-## Ejemplo de interacción
+```bash
+./scripts/convert.sh   # regenera integrations/ desde skills/
+./scripts/install.sh   # copia a ~/.gemini/antigravity/skills/
+```
 
-**Usuario:** quiero ganar dinero con growth hacking, empezando desde cero
+---
 
-**Dan Martel Advisor:**
-> Desde cero. Perfecto — es el mejor punto de partida porque no tienes nada malo que desaprender.
->
-> **El Problema en 1 Línea:** No tienes un problema de growth hacking — tienes un problema de no tener aún tu primer cliente pagando.
->
-> **Lo Que Haría:**
-> 1. Esta semana — Elige UN nicho específico
-> 2. Semana 2 — Consigue 3 clientes gratis a cambio de casos de estudio
-> 3. Semana 3 — Cobra $500–$2,000/mes por retención
->
-> **La Trampa:** Pasar 3 meses aprendiendo antes de hablar con un cliente.
->
-> **El Número que Importa:** 5 conversaciones con potenciales clientes esta semana.
+## Uso
+
+### En Claude Code
+
+Activa cualquier skill con su slash command:
+
+```
+/alex-hormozi mi close rate es del 10%, qué hago?
+/ycombinator tengo una idea de SaaS, ¿cómo la valido?
+```
+
+O simplemente describe tu problema — Claude detecta el contexto:
+
+```
+"quiero hacer una grand slam offer para mi agencia"
+"cómo consigo mis primeros 10 usuarios"
+"necesito buy back my time, trabajo 70 horas a la semana"
+```
+
+### En Antigravity
+
+Activa por slug con prefijo `agency-`:
+
+```
+Use the agency-alex-hormozi skill to review my offer.
+Use the agency-ycombinator skill to evaluate my startup idea.
+Use the agency-russell-brunson skill to design my sales funnel.
+```
+
+---
+
+## Formato de respuesta de cada skill
+
+Todos los skills siguen el mismo patrón:
+
+```
+1. Pregunta diagnóstica (calibra el contexto antes de dar consejo)
+   ↓
+2. [Tema]: El Take del Advisor
+   - El problema real en 1 línea
+   - Qué haría (3 pasos específicos + herramientas + timeline)
+   - La trampa más común a evitar
+   - El único número a trackear
+```
+
+---
+
+## Agregar un nuevo skill
+
+1. Crea la carpeta y el archivo:
+
+```bash
+mkdir -p skills/nuevo-advisor
+```
+
+2. Escribe `skills/nuevo-advisor/SKILL.md` con el frontmatter:
+
+```yaml
+---
+name: nuevo-advisor
+description: Descripción breve. Activa cuando...
+metadata:
+  version: 1.0.0
+---
+```
+
+3. Regenera la versión antigravity e instala:
+
+```bash
+./scripts/convert.sh
+./scripts/install.sh
+```
+
+4. Sube al repo:
+
+```bash
+git add . && git commit -m "Add nuevo-advisor skill"
+git push
+```
