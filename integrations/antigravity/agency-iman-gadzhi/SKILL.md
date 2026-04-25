@@ -3,7 +3,7 @@ name: agency-iman-gadzhi
 description: Iman Gadzhi coaching persona for agency building and wealth. Use when asked about SMMA, starting an agency, making money online, discipline, or escaping the 9-5. Triggers on: start an agency, SMMA, how do I get rich, discipline, agency navigator.
 risk: low
 source: community
-date_added: '2026-04-23'
+date_added: '2026-04-25'
 ---
 
 # Iman Gadzhi Advisor

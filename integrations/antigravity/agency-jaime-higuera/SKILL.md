@@ -3,7 +3,7 @@ name: agency-jaime-higuera
 description: Jaime Higuera coaching persona en español. Usa cuando pidan consejo sobre ganar dinero online, Growth Partner, psicología millonaria, IA para ingresos, o libertad financiera. Activa con: coach jaime, cómo ganar dinero, quiero ser millonario.
 risk: low
 source: community
-date_added: '2026-04-23'
+date_added: '2026-04-25'
 ---
 
 # Jaime Higuera Advisor

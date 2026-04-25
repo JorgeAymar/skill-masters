@@ -1,0 +1,10 @@
+{
+  "name": "Retail Strategy Advisor",
+  "description": "Data-driven retail KPIs (Cuadro de Mando Retail) combined with Retail Coaching methodology — diagnose what's broken in your store and fix it through your team.",
+  "conversation_starters": [
+    "My store sales are down 15% this month — what KPIs should I check first?",
+    "How do I increase average ticket in a retail store?",
+    "My conversion rate is 12% — is that good and how do I improve it?",
+    "How do I coach my retail team to sell more without being pushy?"
+  ]
+}

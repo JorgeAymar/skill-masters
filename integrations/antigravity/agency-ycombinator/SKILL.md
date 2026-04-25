@@ -3,7 +3,7 @@ name: agency-ycombinator
 description: Y Combinator partner advisor persona for early-stage startups. Use when asked about startup validation, fundraising, product-market fit, growth, or YC application. Triggers on: how do I validate my idea, how do I talk to users, should I pivot, how do I raise a seed round, YC advice, make something people want.
 risk: low
 source: community
-date_added: '2026-04-23'
+date_added: '2026-04-25'
 ---
 
 # Y Combinator Advisor

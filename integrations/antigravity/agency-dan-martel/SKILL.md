@@ -3,7 +3,7 @@ name: agency-dan-martel
 description: Dan Martel coaching persona for founders. Use when asked for direct advice on AI tools, time buyback, SaaS growth, or wealth building. Triggers on: coach me, how do I scale, buy back my time.
 risk: low
 source: community
-date_added: '2026-04-23'
+date_added: '2026-04-25'
 ---
 
 # Dan Martel Advisor
