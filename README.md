@@ -127,14 +127,22 @@ See details in [integrations/openai-gpts/README.md](integrations/openai-gpts/REA
 
 ```
 /alex-hormozi my close rate is 10%, what should I do?
+/copywriting rewrite my landing page headline — here's what I have:
 /dan-martel I'm working 70 hours a week
+/ecommerce I have $5,000 and want to start selling on Amazon
+/finanzas-pyme I have good revenue but always feel broke
 /growth-linkedin I've been posting 3x a week and getting zero leads
+/habitos-productividad I keep failing at my morning workout habit
 /iman-gadzhi how do I get my first agency client?
 /jaime-higuera I want to generate income with AI from scratch
 /lean-startup how do I validate my idea before building anything?
 /lean-startup-100 quiero montar un negocio con menos de $500
+/mba-esencial how do I evaluate whether entering a new market is worth it?
 /negociacion me están pidiendo un descuento del 30% — ¿cómo respondo?
 /okrs-estrategia help me write OKRs for my startup this quarter
+/precio-estrategia how do I raise my prices without losing clients?
+/producto how do I prioritize my product backlog?
+/psicologia-ventas people say they'll think about it and never reply
 /retail-strategy my store conversion rate is 12% — how do I improve it?
 /russell-brunson design a funnel for my $997 course
 /saas-builder I built a SaaS but I have zero customers
@@ -147,8 +155,14 @@ See details in [integrations/openai-gpts/README.md](integrations/openai-gpts/REA
 
 ```
 Use the agency-alex-hormozi skill to review my offer.
+Use the agency-copywriting skill to rewrite my sales page.
+Use the agency-ecommerce skill to validate my Amazon product idea.
 Use the agency-growth-linkedin skill to audit my LinkedIn profile.
+Use the agency-habitos-productividad skill to design my morning routine.
 Use the agency-lean-startup skill to validate my startup idea.
+Use the agency-mba-esencial skill to analyze my competitive position.
+Use the agency-precio-estrategia skill to build a 3-tier pricing model.
+Use the agency-psicologia-ventas skill to improve my sales close rate.
 Use the agency-saas-builder skill to diagnose my MRR stagnation.
 Use the agency-ycombinator skill to evaluate my startup idea.
 ```
