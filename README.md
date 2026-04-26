@@ -12,7 +12,6 @@ A collection of coaching personas based on high-impact entrepreneurs and methodo
 | `alex-hormozi` | Alex Hormozi | Grand Slam Offers, $100M Leads, pricing, scaling |
 | `cashvertising` | Dr. Direct (Drew Eric Whitman) | Ad psychology, Life Force 8, headline formulas, direct response |
 | `contabilidad-basica` | Contabilidad Advisor | Bookkeeping, estados financieros, flujo de caja, ratios (ES) |
-| `sales-copywriting` | Copywriting Advisor | Jim Edwards, sales copy, headlines, landing pages, emails |
 | `dan-martel` | Dan Martel | Buy Back Your Time, SaaS, AI tools |
 | `dev-career` | Rands (Michael Lopp) | Software developer career, promotions, manager relations, job search |
 | `digital-agency` | Digital Agency Advisor | Seven-figure agency, niching, client acquisition, scaling past $1M |
@@ -38,6 +37,7 @@ A collection of coaching personas based on high-impact entrepreneurs and methodo
 | `retail-strategy` | Retail Strategy Advisor | KPIs de tienda, retail coaching, equipo de ventas |
 | `russell-brunson` | Russell Brunson | Funnels, Value Ladder, ClickFunnels |
 | `saas-builder` | SaaS Builder Advisor | SaaS desde cero, MRR, churn, PLG vs sales-led |
+| `sales-copywriting` | Copywriting Advisor | Jim Edwards, sales copy, headlines, landing pages, emails |
 | `sean-ellis` | Sean Ellis Advisor | Growth hacking, AARRR, North Star Metric, ICE scoring |
 | `storytelling` | Business Storytelling Advisor | Pitches, brand narrative, content that converts |
 | `venture-capital` | VC & Fundraising Advisor | Raising VC, term sheets, valuation, cap table, seed/Series A |
@@ -50,20 +50,39 @@ A collection of coaching personas based on high-impact entrepreneurs and methodo
 ```
 skill-masters/
 ├── skills/                          ← master skill definitions (34 skills)
+│   ├── ai-agents/SKILL.md
 │   ├── alex-hormozi/SKILL.md
+│   ├── cashvertising/SKILL.md
+│   ├── contabilidad-basica/SKILL.md
 │   ├── dan-martel/SKILL.md
+│   ├── dev-career/SKILL.md
+│   ├── digital-agency/SKILL.md
+│   ├── ecommerce/SKILL.md
+│   ├── ethical-hacking/SKILL.md
+│   ├── finanzas-pyme/SKILL.md
+│   ├── growth-hacking/SKILL.md
 │   ├── growth-linkedin/SKILL.md
+│   ├── habitos-productividad/SKILL.md
+│   ├── hacking-sales/SKILL.md
 │   ├── iman-gadzhi/SKILL.md
 │   ├── jaime-higuera/SKILL.md
 │   ├── lean-startup/SKILL.md
 │   ├── lean-startup-100/SKILL.md
+│   ├── mba-esencial/SKILL.md
+│   ├── mckinsey-strategy/SKILL.md
 │   ├── negociacion/SKILL.md
 │   ├── okrs-estrategia/SKILL.md
+│   ├── plan-negocios/SKILL.md
+│   ├── precio-estrategia/SKILL.md
+│   ├── producto/SKILL.md
+│   ├── psicologia-ventas/SKILL.md
 │   ├── retail-strategy/SKILL.md
 │   ├── russell-brunson/SKILL.md
 │   ├── saas-builder/SKILL.md
+│   ├── sales-copywriting/SKILL.md
 │   ├── sean-ellis/SKILL.md
 │   ├── storytelling/SKILL.md
+│   ├── venture-capital/SKILL.md
 │   └── ycombinator/SKILL.md
 ├── integrations/
 │   ├── antigravity/                 ← Antigravity / Gemini (agency- prefix)
@@ -79,7 +98,7 @@ skill-masters/
 │   ├── convert.sh                   ← regenerates integrations/antigravity/ from skills/
 │   └── convert-gpts.sh              ← regenerates integrations/openai-gpts/ from skills/
 └── .claude/
-    └── commands/                    ← slash commands for Claude Code (23 commands)
+    └── commands/                    ← slash commands for Claude Code (34 commands)
 ```
 
 ---
@@ -137,44 +156,66 @@ See details in [integrations/openai-gpts/README.md](integrations/openai-gpts/REA
 ### Claude Code — slash commands
 
 ```
+/ai-agents how do I build a ReAct agent with tool use in Python?
 /alex-hormozi my close rate is 10%, what should I do?
-/sales-copywriting rewrite my landing page headline — here's what I have:
+/cashvertising my Facebook ad has 0.5% CTR — what's wrong?
+/contabilidad-basica no entiendo la diferencia entre ganancia y flujo de caja
 /dan-martel I'm working 70 hours a week
+/dev-career should I take the staff engineer offer or move to management?
+/digital-agency how do I get my first 3 agency clients?
 /ecommerce I have $5,000 and want to start selling on Amazon
+/ethical-hacking how do I start learning penetration testing from scratch?
 /finanzas-pyme I have good revenue but always feel broke
+/growth-hacking give me a 30-day growth plan for my B2B SaaS
 /growth-linkedin I've been posting 3x a week and getting zero leads
 /habitos-productividad I keep failing at my morning workout habit
+/hacking-sales how do I build an outbound SDR process from scratch?
 /iman-gadzhi how do I get my first agency client?
 /jaime-higuera I want to generate income with AI from scratch
 /lean-startup how do I validate my idea before building anything?
 /lean-startup-100 quiero montar un negocio con menos de $500
 /mba-esencial how do I evaluate whether entering a new market is worth it?
+/mckinsey-strategy help me structure the analysis for this business problem
 /negociacion me están pidiendo un descuento del 30% — ¿cómo respondo?
 /okrs-estrategia help me write OKRs for my startup this quarter
+/plan-negocios quiero montar un negocio, ¿por dónde empiezo?
 /precio-estrategia how do I raise my prices without losing clients?
 /producto how do I prioritize my product backlog?
 /psicologia-ventas people say they'll think about it and never reply
 /retail-strategy my store conversion rate is 12% — how do I improve it?
 /russell-brunson design a funnel for my $997 course
 /saas-builder I built a SaaS but I have zero customers
+/sales-copywriting rewrite my landing page headline — here's what I have:
 /sean-ellis how do I find my North Star Metric?
 /storytelling help me craft a 3-minute pitch for my startup
+/venture-capital how do I structure my seed round term sheet?
 /ycombinator I have a SaaS idea, how do I validate it?
 ```
 
 ### Antigravity
 
 ```
+Use the agency-ai-agents skill to design my multi-agent architecture.
 Use the agency-alex-hormozi skill to review my offer.
-Use the agency-sales-copywriting skill to rewrite my sales page.
+Use the agency-cashvertising skill to rewrite my ad copy.
+Use the agency-contabilidad-basica skill to explain my balance sheet.
+Use the agency-dev-career skill to plan my promotion to senior engineer.
+Use the agency-digital-agency skill to help me get my first 3 agency clients.
 Use the agency-ecommerce skill to validate my Amazon product idea.
+Use the agency-ethical-hacking skill to explain the OWASP Top 10.
+Use the agency-growth-hacking skill to build a 30-day growth plan.
 Use the agency-growth-linkedin skill to audit my LinkedIn profile.
 Use the agency-habitos-productividad skill to design my morning routine.
+Use the agency-hacking-sales skill to build my outbound sales process.
 Use the agency-lean-startup skill to validate my startup idea.
+Use the agency-mckinsey-strategy skill to structure this business problem.
 Use the agency-mba-esencial skill to analyze my competitive position.
+Use the agency-plan-negocios skill to create my one-page business model.
 Use the agency-precio-estrategia skill to build a 3-tier pricing model.
 Use the agency-psicologia-ventas skill to improve my sales close rate.
 Use the agency-saas-builder skill to diagnose my MRR stagnation.
+Use the agency-sales-copywriting skill to rewrite my sales page.
+Use the agency-venture-capital skill to prepare my fundraising pitch.
 Use the agency-ycombinator skill to evaluate my startup idea.
 ```
 
