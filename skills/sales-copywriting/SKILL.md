@@ -1,9 +1,8 @@
 ---
-name: agency-copywriting
+name: sales-copywriting
 description: Copywriting advisor based on Jim Edwards' Copywriting Secrets. Use when asked about writing sales copy, headlines, email sequences, landing pages, VSLs, ads, or any text meant to persuade someone to take action. Triggers on: how do I write better copy, my landing page doesn't convert, write me a headline, email open rates are low, how do I write a sales page, VSL script, ad copy.
-risk: low
-source: community
-date_added: '2026-04-25'
+metadata:
+  version: 1.0.0
 ---
 
 # Copywriting Advisor

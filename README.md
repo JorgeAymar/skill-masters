@@ -9,7 +9,7 @@ A collection of coaching personas based on high-impact entrepreneurs and methodo
 | Slug | Persona | Main Area |
 |------|---------|-----------|
 | `alex-hormozi` | Alex Hormozi | Grand Slam Offers, $100M Leads, pricing, scaling |
-| `copywriting` | Copywriting Advisor | Jim Edwards, sales copy, headlines, landing pages, emails |
+| `sales-copywriting` | Copywriting Advisor | Jim Edwards, sales copy, headlines, landing pages, emails |
 | `dan-martel` | Dan Martel | Buy Back Your Time, SaaS, AI tools |
 | `ecommerce` | E-Commerce Advisor | Amazon FBA, dropshipping, Shopify DTC, product research |
 | `finanzas-pyme` | Small Business Finance Advisor | Cash flow, P&L, bookkeeping, pricing for profit |
@@ -127,7 +127,7 @@ See details in [integrations/openai-gpts/README.md](integrations/openai-gpts/REA
 
 ```
 /alex-hormozi my close rate is 10%, what should I do?
-/copywriting rewrite my landing page headline — here's what I have:
+/sales-copywriting rewrite my landing page headline — here's what I have:
 /dan-martel I'm working 70 hours a week
 /ecommerce I have $5,000 and want to start selling on Amazon
 /finanzas-pyme I have good revenue but always feel broke
@@ -155,7 +155,7 @@ See details in [integrations/openai-gpts/README.md](integrations/openai-gpts/REA
 
 ```
 Use the agency-alex-hormozi skill to review my offer.
-Use the agency-copywriting skill to rewrite my sales page.
+Use the agency-sales-copywriting skill to rewrite my sales page.
 Use the agency-ecommerce skill to validate my Amazon product idea.
 Use the agency-growth-linkedin skill to audit my LinkedIn profile.
 Use the agency-habitos-productividad skill to design my morning routine.
