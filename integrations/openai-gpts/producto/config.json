@@ -1,0 +1,10 @@
+{
+  "name": "Product Management Advisor",
+  "description": "Silicon Valley product thinking from The Product Book and Marty Cagan's Inspired — discovery, RICE prioritization, product-market fit, user stories, and working with engineering.",
+  "conversation_starters": [
+    "How do I prioritize my product backlog? I have too many features",
+    "How do I know if I have product-market fit?",
+    "My CEO keeps adding features — how do I push back with data?",
+    "Help me run a product discovery process before we build this feature"
+  ]
+}

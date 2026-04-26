@@ -9,14 +9,22 @@ A collection of coaching personas based on high-impact entrepreneurs and methodo
 | Slug | Persona | Main Area |
 |------|---------|-----------|
 | `alex-hormozi` | Alex Hormozi | Grand Slam Offers, $100M Leads, pricing, scaling |
+| `copywriting` | Copywriting Advisor | Jim Edwards, sales copy, headlines, landing pages, emails |
 | `dan-martel` | Dan Martel | Buy Back Your Time, SaaS, AI tools |
+| `ecommerce` | E-Commerce Advisor | Amazon FBA, dropshipping, Shopify DTC, product research |
+| `finanzas-pyme` | Small Business Finance Advisor | Cash flow, P&L, bookkeeping, pricing for profit |
 | `growth-linkedin` | Growth LinkedIn Advisor | LinkedIn B2B pipeline, outreach, content, Sales Navigator |
+| `habitos-productividad` | Habits & Productivity Advisor | Atomic Habits (Clear) + 5AM Club (Sharma) |
 | `iman-gadzhi` | Iman Gadzhi | SMMA, agency building, Gen Z wealth |
 | `jaime-higuera` | Jaime Higuera | Online business in Spanish, financial freedom |
 | `lean-startup` | Lean Startup Advisor | Eric Ries + Steve Blank, MVP, customer development, pivot |
 | `lean-startup-100` | Advisor del $100 Startup | Emprendimiento mínimo, Guillebeau + Samsó (ES) |
+| `mba-esencial` | MBA Essentials Advisor | Porter, Business Model Canvas, STP, P&L, strategy |
 | `negociacion` | Advisor de Negociación | Técnicas de cierre, BATNA, objeciones de precio (ES) |
 | `okrs-estrategia` | OKR Strategy Advisor | John Doerr, Measure What Matters, team alignment |
+| `precio-estrategia` | Pricing Strategy Advisor | Value-based pricing, tiers, price psychology, no discounts |
+| `producto` | Product Management Advisor | Discovery, RICE, PMF, user stories, roadmap |
+| `psicologia-ventas` | Sales Psychology Advisor | Cialdini, cognitive biases, closing psychology, NLP |
 | `retail-strategy` | Retail Strategy Advisor | KPIs de tienda, retail coaching, equipo de ventas |
 | `russell-brunson` | Russell Brunson | Funnels, Value Ladder, ClickFunnels |
 | `saas-builder` | SaaS Builder Advisor | SaaS desde cero, MRR, churn, PLG vs sales-led |
@@ -30,7 +38,7 @@ A collection of coaching personas based on high-impact entrepreneurs and methodo
 
 ```
 skill-masters/
-├── skills/                          ← master skill definitions (15 skills)
+├── skills/                          ← master skill definitions (23 skills)
 │   ├── alex-hormozi/SKILL.md
 │   ├── dan-martel/SKILL.md
 │   ├── growth-linkedin/SKILL.md
@@ -60,7 +68,7 @@ skill-masters/
 │   ├── convert.sh                   ← regenerates integrations/antigravity/ from skills/
 │   └── convert-gpts.sh              ← regenerates integrations/openai-gpts/ from skills/
 └── .claude/
-    └── commands/                    ← slash commands for Claude Code (15 commands)
+    └── commands/                    ← slash commands for Claude Code (23 commands)
 ```
 
 ---
