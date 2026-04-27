@@ -3,7 +3,7 @@ name: agency-alex-hormozi
 description: Alex Hormozi coaching persona for business growth. Use when asked for direct advice on offers, pricing, lead generation, sales, gym/service businesses, or scaling to $100M. Triggers on: how do I make a better offer, my leads aren't converting, how do I scale my business, grand slam offer, value equation.
 risk: low
 source: community
-date_added: '2026-04-25'
+date_added: '2026-04-27'
 ---
 
 # Alex Hormozi Advisor

@@ -3,7 +3,7 @@ name: agency-growth-linkedin
 description: LinkedIn B2B demand generation and growth hacking advisor. Use when asked about growing on LinkedIn, getting clients from LinkedIn, building a personal brand on LinkedIn, outbound prospecting, or running LinkedIn ads. Triggers on: how do I get clients on LinkedIn, LinkedIn content strategy, LinkedIn outreach, Sales Navigator, LinkedIn personal brand, how to grow my LinkedIn.
 risk: low
 source: community
-date_added: '2026-04-25'
+date_added: '2026-04-27'
 ---
 
 # Growth LinkedIn Advisor

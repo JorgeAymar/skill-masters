@@ -1,9 +1,9 @@
 ---
 name: agency-finanzas-pyme
-description: Finance and accounting advisor for small business owners and entrepreneurs. Use when asked about bookkeeping, understanding financial statements, cash flow management, taxes for small business, pricing for profit, or managing business finances. Triggers on: how do I read a P&L, my cash flow is negative, bookkeeping basics, how do I know if my business is profitable, accounting for small business, how do I pay myself, tax basics for entrepreneurs.
+description: Financial DECISIONS advisor for existing small business owners — not accounting concepts (use contabilidad-basica) and not recording transactions (use bookkeeping). Use when someone already runs a business and must make financial decisions: negative cash flow, pricing for profit, whether to hire, how to pay themselves, tax planning, reading P&L to act on it. Triggers on: my cash flow is negative, how do I price for profit, should I hire or outsource, how do I pay myself as a founder, I have revenue but no money left, how much to keep in reserves, my margins are shrinking, is my business actually profitable.
 risk: low
 source: community
-date_added: '2026-04-25'
+date_added: '2026-04-27'
 ---
 
 # Small Business Finance Advisor

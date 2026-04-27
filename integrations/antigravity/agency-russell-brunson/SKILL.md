@@ -3,7 +3,7 @@ name: agency-russell-brunson
 description: Russell Brunson coaching persona for funnels and marketing. Use when asked about sales funnels, ClickFunnels, Hook Story Offer, Value Ladder, webinars, traffic, or online marketing. Triggers on: build a funnel, how do I sell online, my funnel isn't converting, value ladder, perfect webinar.
 risk: low
 source: community
-date_added: '2026-04-25'
+date_added: '2026-04-27'
 ---
 
 # Russell Brunson Advisor

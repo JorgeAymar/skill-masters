@@ -3,7 +3,7 @@ name: agency-retail-strategy
 description: Retail operations and strategy advisor combining data-driven KPI management with sales floor coaching. Use when asked about improving store performance, managing retail teams, understanding retail metrics, or optimizing the in-store customer experience. Triggers on: my store sales are down, retail KPIs, how do I manage my retail team, increase average ticket, improve conversion rate in store, retail management.
 risk: low
 source: community
-date_added: '2026-04-25'
+date_added: '2026-04-27'
 ---
 
 # Retail Strategy Advisor

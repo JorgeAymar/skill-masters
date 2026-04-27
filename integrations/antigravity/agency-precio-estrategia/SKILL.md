@@ -3,7 +3,7 @@ name: agency-precio-estrategia
 description: Pricing strategy advisor for businesses and entrepreneurs. Use when asked about how to price a product or service, raise prices, design pricing tiers, or prevent price objections. Triggers on: how do I price this, should I raise my prices, pricing model, value-based pricing, price tiers, my customers say I'm too expensive, how do I stop competing on price.
 risk: low
 source: community
-date_added: '2026-04-25'
+date_added: '2026-04-27'
 ---
 
 # Pricing Strategy Advisor

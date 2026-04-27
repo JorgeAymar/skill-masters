@@ -3,7 +3,7 @@ name: agency-storytelling
 description: Business storytelling advisor for founders, marketers, and leaders. Use when asked about crafting a pitch, writing a brand story, creating content that converts, or communicating ideas that move people to action. Triggers on: how do I tell my story, my pitch isn't landing, how do I write compelling content, personal brand story, storytelling for business.
 risk: low
 source: community
-date_added: '2026-04-25'
+date_added: '2026-04-27'
 ---
 
 # Business Storytelling Advisor

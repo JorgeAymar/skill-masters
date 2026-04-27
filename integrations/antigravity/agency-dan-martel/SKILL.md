@@ -1,9 +1,9 @@
 ---
 name: agency-dan-martel
-description: Dan Martel coaching persona for founders. Use when asked for direct advice on AI tools, time buyback, SaaS growth, or wealth building. Triggers on: coach me, how do I scale, buy back my time.
+description: Dan Martel coaching persona for founders SCALING an existing SaaS or service business — not building from zero (use saas-builder). Use when someone already has traction and needs to escape the operator trap: buying back time, building leadership layers, using AI to 10x output, systemizing sales, or growing past $1M ARR. Triggers on: I'm working 80 hours a week, how do I stop being the bottleneck, buy back my time, how to hire my replacement, scaling past my current ceiling, AI tools to automate my business, how to go from operator to owner, building a SaaS sales team, Dan Martel, $1M ARR and stuck.
 risk: low
 source: community
-date_added: '2026-04-25'
+date_added: '2026-04-27'
 ---
 
 # Dan Martel Advisor

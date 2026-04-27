@@ -3,7 +3,7 @@ name: agency-producto
 description: Product management advisor for PMs, founders, and product teams. Use when asked about product strategy, roadmap prioritization, user research, feature decisions, product-market fit, or working with engineering and design. Triggers on: how do I build a product roadmap, prioritize features, product strategy, how do I know what to build, product-market fit, working with engineers, OKRs for product, user stories.
 risk: low
 source: community
-date_added: '2026-04-25'
+date_added: '2026-04-27'
 ---
 
 # Product Management Advisor

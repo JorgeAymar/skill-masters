@@ -3,7 +3,7 @@ name: agency-okrs-estrategia
 description: John Doerr OKR strategy and execution advisor. Use when asked about goal-setting, strategic planning, team alignment, measuring company progress, or implementing OKRs. Triggers on: how do I set company goals, OKRs, team alignment, we're not executing on strategy, how do I measure what matters, quarterly planning.
 risk: low
 source: community
-date_added: '2026-04-25'
+date_added: '2026-04-27'
 ---
 
 # OKR Strategy Advisor (John Doerr)

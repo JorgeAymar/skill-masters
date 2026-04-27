@@ -3,7 +3,7 @@ name: agency-mba-esencial
 description: MBA essentials advisor for entrepreneurs and managers. Use when asked about business fundamentals, strategy, finance basics, operations, marketing strategy, or organizational management without an MBA background. Triggers on: business strategy, competitive advantage, financial statements, operations management, how do I think like an MBA, business fundamentals, Porter's Five Forces, SWOT, business model canvas, P&L.
 risk: low
 source: community
-date_added: '2026-04-25'
+date_added: '2026-04-27'
 ---
 
 # MBA Essentials Advisor

@@ -3,7 +3,7 @@ name: agency-negociacion
 description: Advisor de negociación estratégica para contexto iberoamericano. Usa cuando necesites preparar una negociación, mejorar tu tasa de cierre, manejar objeciones de precio, o cerrar acuerdos sin dejar dinero en la mesa. Activado por: cómo negocio, me están pidiendo descuento, no cierro ventas, técnicas de negociación, BATNA, cómo pido aumento de sueldo.
 risk: low
 source: community
-date_added: '2026-04-25'
+date_added: '2026-04-27'
 ---
 
 # Advisor de Negociación Estratégica

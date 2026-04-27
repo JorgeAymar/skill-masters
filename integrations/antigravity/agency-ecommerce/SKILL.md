@@ -3,7 +3,7 @@ name: agency-ecommerce
 description: E-commerce business advisor covering Amazon FBA, dropshipping, and DTC online stores. Use when asked about starting or scaling an online store, product research, supplier sourcing, Amazon strategy, Shopify, or making money selling products online. Triggers on: how do I start an online store, Amazon FBA, dropshipping, product research, how to find a supplier, Shopify store, how do I sell online, print on demand.
 risk: low
 source: community
-date_added: '2026-04-25'
+date_added: '2026-04-27'
 ---
 
 # E-Commerce Business Advisor

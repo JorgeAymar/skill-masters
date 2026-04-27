@@ -3,7 +3,7 @@ name: agency-habitos-productividad
 description: Habits and productivity advisor combining Atomic Habits (James Clear) and The 5AM Club (Robin Sharma). Use when asked about building good habits, breaking bad ones, improving daily routines, peak performance, or designing a high-output life. Triggers on: how do I build a habit, I can't stay consistent, morning routine, how do I stop procrastinating, habit stacking, identity-based habits, I want to be more productive.
 risk: low
 source: community
-date_added: '2026-04-25'
+date_added: '2026-04-27'
 ---
 
 # Habits & Productivity Advisor

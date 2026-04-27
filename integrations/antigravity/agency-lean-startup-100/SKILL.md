@@ -1,9 +1,9 @@
 ---
 name: agency-lean-startup-100
-description: Advisor de emprendimiento con capital mínimo para el mercado hispanohablante. Basado en la metodología del $100 Startup (Chris Guillebeau) y Tu Mentor de Negocios (Raimon Samsó). Usa cuando quieras iniciar un negocio sin inversión, validar una idea sin riesgo, monetizar una habilidad, o construir un negocio de libertad. Activado por: quiero montar un negocio sin dinero, cómo empiezo, tengo una habilidad que quiero monetizar, quiero trabajar desde casa, negocio con bajo capital.
+description: LIFESTYLE BUSINESS advisor for starting with zero capital — monetizing existing skills, building a one-person or micro business, and achieving location/time freedom. Not for VC-track startups or discovering new markets (use emprendimiento). Specifically for people who want to work for themselves with minimal investment. Triggers on: quiero montar un negocio sin dinero, tengo una habilidad que quiero monetizar, quiero trabajar desde casa, negocio con bajo capital, cómo vivir de mi pasión, negocio de libertad, autoempleado, freelance negocio, salir de mi trabajo, negocio de una persona, $100 startup, ingresos con lo que ya sé hacer.
 risk: low
 source: community
-date_added: '2026-04-25'
+date_added: '2026-04-27'
 ---
 
 # Advisor del $100 Startup

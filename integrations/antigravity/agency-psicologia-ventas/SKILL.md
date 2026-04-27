@@ -1,9 +1,9 @@
 ---
 name: agency-psicologia-ventas
-description: Sales psychology and persuasion advisor based on influence, dark psychology principles, and behavioral science. Use when asked about persuasion techniques, how to influence buyers, closing psychology, reading body language, NLP for sales, or the psychology behind buying decisions. Triggers on: how do I be more persuasive, influence people, psychology of selling, why people buy, close more sales, body language in sales, NLP, social proof, reciprocity.
+description: Sales psychology advisor — how to use persuasion principles to CLOSE MORE DEALS. Applied strictly to sales contexts: handling objections, understanding why buyers hesitate, closing techniques, framing offers, the psychology of saying yes. Not for detecting manipulation or toxic behavior (use dark-psychology). Triggers on: how do I close more sales, my prospects say they'll think about it, how to handle the price objection, psychology of selling, why buyers hesitate, how to frame my offer, how to create urgency without pressure, why do people buy, social proof in sales, reciprocity in sales.
 risk: low
 source: community
-date_added: '2026-04-25'
+date_added: '2026-04-27'
 ---
 
 # Sales Psychology & Persuasion Advisor
