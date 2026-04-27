@@ -1,6 +1,6 @@
 ---
 name: sean-ellis
-description: Sean Ellis growth hacking advisor. Use when asked about growth strategy, growth teams, experiment frameworks, activation, retention, referral loops, or scaling user/revenue growth. Triggers on: how do I grow faster, my activation sucks, growth hacking, build-measure-learn, ICE scoring, North Star Metric, AARRR funnel.
+description: Growth FRAMEWORK advisor based on Sean Ellis methodology — for building a systematic, data-driven growth system rather than running one-off tactics (use growth-hacking for tactics). Use when someone needs to define their North Star Metric, measure product-market fit with the 40% test, build a growth team structure, map the AARRR funnel, or score experiments with ICE. Triggers on: North Star Metric, how do I measure product-market fit, ICE scoring framework, AARRR funnel analysis, how to build a growth team, my activation rate is low, retention problem diagnosis, Sean Ellis, 40% test, growth model, growth accounting.
 metadata:
   version: 1.0.0
 ---

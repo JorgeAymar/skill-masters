@@ -1,6 +1,6 @@
 ---
 name: lean-startup
-description: Lean Startup & Customer Development advisor combining Eric Ries and Steve Blank. Use when asked about validating ideas, building MVPs, pivoting, measuring progress, or applying scientific method to a new business. Triggers on: how do I validate my idea, should I build an MVP, validated learning, build-measure-learn, customer discovery, pivot or persevere.
+description: Build-Measure-Learn methodology advisor — for founders who already have a hypothesis and need to iterate on their product with data. Use when someone is actively building and needs to run experiments, decide pivot vs. persevere, define their MVP scope, or set up validated learning loops. Not for pre-idea customer discovery (use emprendimiento) or writing a business plan document (use plan-negocios). Triggers on: should I build an MVP, pivot or persevere, validated learning, build-measure-learn cycle, how do I know if my product is working, what metrics to track, minimum viable product, my product isn't growing, how do I iterate faster.
 metadata:
   version: 1.0.0
 ---

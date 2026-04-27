@@ -4,44 +4,82 @@ A collection of coaching personas based on high-impact entrepreneurs and methodo
 
 ---
 
-## Available Skills
+## Available Skills (45 total)
+
+### Business & Entrepreneurship
 
 | Slug | Persona | Main Area |
 |------|---------|-----------|
-| `ai-agents` | AI Agents Architect | LLM-powered agents, multi-agent systems, tool use, RAG, production AI |
 | `alex-hormozi` | Alex Hormozi | Grand Slam Offers, $100M Leads, pricing, scaling |
-| `cashvertising` | Dr. Direct (Drew Eric Whitman) | Ad psychology, Life Force 8, headline formulas, direct response |
-| `contabilidad-basica` | Contabilidad Advisor | Bookkeeping, estados financieros, flujo de caja, ratios (ES) |
+| `business-analysis` | Business Analysis Advisor | Requirements gathering, process mapping, BPMN, business cases |
 | `dan-martel` | Dan Martel | Buy Back Your Time, SaaS, AI tools |
-| `dev-career` | Rands (Michael Lopp) | Software developer career, promotions, manager relations, job search |
 | `digital-agency` | Digital Agency Advisor | Seven-figure agency, niching, client acquisition, scaling past $1M |
-| `ecommerce` | E-Commerce Advisor | Amazon FBA, dropshipping, Shopify DTC, product research |
-| `ethical-hacking` | Ethical Hacker Advisor | Pentesting, OWASP Top 10, Python hacking, OSCP path, bug bounty |
-| `finanzas-pyme` | Small Business Finance Advisor | Cash flow, P&L, bookkeeping, pricing for profit |
-| `growth-hacking` | Growth Hacking Advisor | 100+ growth tactics, channel selection, viral coefficient, experiment design |
-| `growth-linkedin` | Growth LinkedIn Advisor | LinkedIn B2B pipeline, outreach, content, Sales Navigator |
-| `habitos-productividad` | Habits & Productivity Advisor | Atomic Habits (Clear) + 5AM Club (Sharma) |
-| `hacking-sales` | Max Altschuler (Sales Hacker) | High-velocity sales machine, SDR playbook, sales stack, pipeline |
+| `emprendimiento` | Asesor de Emprendimiento | Customer discovery, Steve Blank, Business Model Canvas (ES) |
 | `iman-gadzhi` | Iman Gadzhi | SMMA, agency building, Gen Z wealth |
 | `jaime-higuera` | Jaime Higuera | Online business in Spanish, financial freedom |
 | `lean-startup` | Lean Startup Advisor | Eric Ries + Steve Blank, MVP, customer development, pivot |
 | `lean-startup-100` | Advisor del $100 Startup | Emprendimiento mínimo, Guillebeau + Samsó (ES) |
 | `mba-esencial` | MBA Essentials Advisor | Porter, Business Model Canvas, STP, P&L, strategy |
 | `mckinsey-strategy` | McKinsey Strategy Partner | MECE, issue trees, Pyramid Principle, competitive strategy |
+| `plan-negocios` | Plan de Negocio Advisor | Validación de idea, modelo en 1 página, primer cliente (ES) |
+| `venture-capital` | VC & Fundraising Advisor | Raising VC, term sheets, valuation, cap table, seed/Series A |
+| `ycombinator` | YC Partner | Startup validation, PMF, fundraising |
+
+### Sales, Marketing & Growth
+
+| Slug | Persona | Main Area |
+|------|---------|-----------|
+| `cashvertising` | Dr. Direct (Drew Eric Whitman) | Ad psychology, Life Force 8, headline formulas, direct response |
+| `ecommerce` | E-Commerce Advisor | Amazon FBA, dropshipping, Shopify DTC, product research |
+| `growth-hacking` | Growth Hacking Advisor | 100+ growth tactics, channel selection, viral coefficient, experiment design |
+| `growth-linkedin` | Growth LinkedIn Advisor | LinkedIn B2B pipeline, outreach, content, Sales Navigator |
+| `hacking-sales` | Max Altschuler (Sales Hacker) | High-velocity sales machine, SDR playbook, sales stack, pipeline |
 | `negociacion` | Advisor de Negociación | Técnicas de cierre, BATNA, objeciones de precio (ES) |
 | `okrs-estrategia` | OKR Strategy Advisor | John Doerr, Measure What Matters, team alignment |
-| `plan-negocios` | Plan de Negocio Advisor | Validación de idea, modelo en 1 página, primer cliente (ES) |
 | `precio-estrategia` | Pricing Strategy Advisor | Value-based pricing, tiers, price psychology, no discounts |
-| `producto` | Product Management Advisor | Discovery, RICE, PMF, user stories, roadmap |
 | `psicologia-ventas` | Sales Psychology Advisor | Cialdini, cognitive biases, closing psychology, NLP |
 | `retail-strategy` | Retail Strategy Advisor | KPIs de tienda, retail coaching, equipo de ventas |
 | `russell-brunson` | Russell Brunson | Funnels, Value Ladder, ClickFunnels |
-| `saas-builder` | SaaS Builder Advisor | SaaS desde cero, MRR, churn, PLG vs sales-led |
 | `sales-copywriting` | Copywriting Advisor | Jim Edwards, sales copy, headlines, landing pages, emails |
 | `sean-ellis` | Sean Ellis Advisor | Growth hacking, AARRR, North Star Metric, ICE scoring |
 | `storytelling` | Business Storytelling Advisor | Pitches, brand narrative, content that converts |
-| `venture-capital` | VC & Fundraising Advisor | Raising VC, term sheets, valuation, cap table, seed/Series A |
-| `ycombinator` | YC Partner | Startup validation, PMF, fundraising |
+
+### Finance & Operations
+
+| Slug | Persona | Main Area |
+|------|---------|-----------|
+| `bookkeeping` | Bookkeeping & Accounting Advisor | Double-entry, financial statements, chart of accounts, cash flow (ES) |
+| `contabilidad-basica` | Contabilidad Advisor | Bookkeeping, estados financieros, flujo de caja, ratios (ES) |
+| `finanzas-pyme` | Small Business Finance Advisor | Cash flow, P&L, bookkeeping, pricing for profit |
+
+### Product & Technology
+
+| Slug | Persona | Main Area |
+|------|---------|-----------|
+| `ai-agents` | AI Agents Architect | LLM-powered agents, multi-agent systems, tool use, RAG, production AI |
+| `dev-career` | Rands (Michael Lopp) | Software developer career, promotions, manager relations, job search |
+| `dev-skills` | Developer Skills Advisor | Linux, bash, Docker, Python scripting, programming roadmaps, code review |
+| `machine-learning` | Machine Learning Advisor | ML algorithms, deep learning, PyTorch, feature engineering, MLOps |
+| `producto` | Product Management Advisor | Discovery, RICE, PMF, user stories, roadmap |
+| `saas-builder` | SaaS Builder Advisor | SaaS desde cero, MRR, churn, PLG vs sales-led |
+
+### Productivity & Psychology
+
+| Slug | Persona | Main Area |
+|------|---------|-----------|
+| `dark-psychology` | Dark Psychology & Influence Advisor | Cialdini, dark triad, body language, NLP, manipulation defense |
+| `habitos-productividad` | Habits & Productivity Advisor | Atomic Habits (Clear) + 5AM Club (Sharma) |
+
+### Cybersecurity & Hacking
+
+| Slug | Persona | Main Area |
+|------|---------|-----------|
+| `cloud-security` | Cloud Security Specialist | AWS/Azure/GCP security, IAM, cloud pentesting, CSPM, container security |
+| `cybersecurity` | Cybersecurity Advisor | Security programs, zero trust, NIST/SOC2/ISO27001, hardening baselines |
+| `ethical-hacking` | Ethical Hacker Advisor | Pentesting, OWASP Top 10, Python hacking, OSCP path, bug bounty |
+| `malware-forense` | Malware & Forensics Advisor | Static/dynamic malware analysis, Volatility, Wireshark, DFIR reports |
+| `network-security` | Network Security Advisor | Cisco, TCP/IP, VLANs, wireless, VPN, network monitoring, CCNA prep |
+| `red-teaming` | Red Team Operations Advisor | Adversary simulation, MITRE ATT&CK, C2 frameworks, threat hunting |
 
 ---
 

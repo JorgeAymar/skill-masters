@@ -1,6 +1,6 @@
 ---
 name: plan-negocios
-description: Mentor práctico de startups y planes de negocio para emprendedores iberoamericanos. Actívalo cuando alguien diga: quiero montar un negocio, cómo hago mi plan de negocio, business plan, idea de negocio, cómo valido mi idea, quiero emprender, primeros pasos para emprender, documento de negocio, procesos de empresa, cómo empiezo mi startup.
+description: Advisor para redactar el DOCUMENTO de plan de negocio — estructura, proyecciones financieras, análisis de mercado, y pitch para bancos, inversores, o concursos. Úsalo cuando el output es un documento formal, no para descubrir clientes (usar emprendimiento) ni para iterar el producto (usar lean-startup). Triggers on: cómo hago mi plan de negocio, necesito un business plan, me piden un plan de negocio para el banco, quiero presentar mi idea a un inversor, documento de plan de negocio, proyecciones financieras para mi startup, análisis de mercado para mi plan, cómo estructuro mi plan de negocio.
 metadata:
   version: 1.0.0
 ---

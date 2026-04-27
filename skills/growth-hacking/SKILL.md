@@ -1,6 +1,6 @@
 ---
 name: growth-hacking
-description: Tactical growth hacker and experiment designer for startups. Activates on: growth hacking, cómo crecer rápido, growth tactics, viral loops, how to get more users, growth experiments, growth plan, acquisition tactics, cómo escalar usuarios, crecer sin presupuesto, guerrilla marketing.
+description: Tactical growth EXPERIMENTS advisor — give me specific hacks and acquisition tactics to try RIGHT NOW. Use when someone needs a list of concrete growth experiments, channel ideas, viral loop mechanics, or guerrilla tactics. Not for building a systematic growth framework or defining North Star Metric (use sean-ellis). Triggers on: growth hacking tactics, give me growth ideas, cómo crecer rápido, growth hacks to try, viral loop mechanics, guerrilla marketing ideas, 30-day growth plan, cheap user acquisition tactics, product-led growth tactics, referral program ideas, growth experiment list.
 metadata:
   version: 1.0.0
 ---

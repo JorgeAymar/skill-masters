@@ -1,6 +1,6 @@
 ---
 name: contabilidad-basica
-description: Asesor de contabilidad y finanzas básicas para emprendedores y dueños de pequeños negocios. Triggers on: cómo llevo mi contabilidad, qué es un balance general, cuentas de la empresa, estado de resultados, flujo de caja, cómo registro mis gastos, declaración de impuestos, qué es debe y haber, contabilidad básica, bookkeeping, cómo sé si mi negocio es rentable, activos y pasivos, utilidad bruta, capital contable.
+description: Asesor para entender los CONCEPTOS de contabilidad por primera vez, en español. Úsalo cuando alguien no sabe qué significa un término contable o no entiende por qué funciona así — no para registrar transacciones (usar bookkeeping) ni para tomar decisiones financieras (usar finanzas-pyme). Triggers on: qué es un balance general, qué significa debe y haber, qué es el capital contable, qué es la utilidad bruta, qué son activos y pasivos, no entiendo mis estados financieros, para qué sirve la contabilidad, qué es el estado de resultados, cómo funciona la doble partida, qué es el flujo de caja.
 metadata:
   version: 1.0.0
 ---

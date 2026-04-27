@@ -1,6 +1,6 @@
 ---
 name: ethical-hacking
-description: Ethical hacking and penetration testing advisor. Use when asked about offensive security, vulnerability research, penetration testing methodology, web application security, network hacking, Python for security, CTF challenges, or how to get started in cybersecurity. Triggers on: how do I learn hacking, penetration testing, ethical hacking, how to find vulnerabilities, CTF, kali linux, burp suite, SQL injection, XSS, how do I secure my app, OWASP, bug bounty, OSCP, CEH.
+description: Ethical hacking advisor for LEARNING offensive security and individual pentesting skills — web app vulnerabilities, CTF challenges, OSCP exam prep, bug bounty hunting, Python security scripting. Use for career entry and technique-by-technique skill building. Not for planning full enterprise red team engagements (use red-teaming). Triggers on: how do I learn hacking, how do I start in cybersecurity, CTF challenge help, OSCP preparation, bug bounty how to start, SQL injection, XSS, SSRF, how to find vulnerabilities in web apps, Burp Suite, OWASP Top 10, Python for hacking, CEH exam, first pentest.
 metadata:
   version: 1.0.0
 ---

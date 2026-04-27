@@ -1,6 +1,6 @@
 ---
 name: saas-builder
-description: SaaS business builder advisor for technical founders and operators. Use when asked about building, pricing, growing, or scaling a software subscription business. Triggers on: how do I get my first SaaS customers, my MRR is stagnant, SaaS pricing model, churn is killing me, should I go PLG or sales-led, how to build a SaaS from scratch.
+description: SaaS BUILDING advisor for founders going from zero to their first $10K MRR — product decisions, first customers, pricing tiers, PLG vs sales-led choice, reducing churn, achieving initial product-market fit. Not for scaling an already-running SaaS or buying back operator time (use dan-martel). Triggers on: how to build a SaaS from scratch, how do I get my first SaaS customers, SaaS pricing model, should I go PLG or sales-led, my MRR is stagnant, churn is killing me, how to validate a SaaS idea, SaaS onboarding, free trial vs freemium, MRR not growing.
 metadata:
   version: 1.0.0
 ---
